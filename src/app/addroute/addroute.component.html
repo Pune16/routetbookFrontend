@@ -1,0 +1,33 @@
+<!-- your-component.component.html -->
+
+<div>
+  <div class="container">
+    <h3>Add Consumer</h3>
+    <form  #formData="ngForm">
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name" [(ngModel)]="user.username" required placeholder="Enter Consumer Name">
+    <br><br>
+  
+  
+   <label for="email">Email :</label>
+   <input type="email" id="email" name="email" [(ngModel)]="user.email" required placeholder="Enter Email">
+  <br><br>
+  
+  <label for="contact">contact:</label>
+   <input type="text" id="contact" name="contact" [(ngModel)]="user.contact" required placeholder="Enter Address">
+  <br><br>
+  
+  <label for="password">Password :</label>
+   <input type="password" id="password" name="password" [(ngModel)]="user.password" required placeholder="Enter Password">
+  <br><br>
+
+  <label for="isadmin">isadmin :</label>
+  <input type="text" id="isadmin" name="isadmin" [(ngModel)]="user.isadmin" required >
+ <br><br>
+    <button (click)="addUser()" class="btn btn-outline-warning">Add User</button><br>
+  
+  </form>
+  </div>
+  </div>
+  
+  

@@ -1,0 +1,79 @@
+
+.user{
+    border-radius: 30px;
+}
+.btn{
+    padding:2px 20px;
+    padding-bottom: 9px;
+    border-radius: 25px; 
+    color:black;
+    border-color:black;
+    background-color:white;
+    text-align: start;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    cursor: pointer; 
+}
+
+.btn:hover{
+    color:black;
+    background-color: rgb(231, 225, 217);
+    transform:scale(1.1);
+}
+
+.middle{
+    width: 990px;
+    padding: 10px 10px;
+    margin: 127px auto;
+    color: #ffc4fb;
+}
+.middle h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    border: 2px solid red;
+    margin: 10px 10px;
+}
+.search1{
+padding: 8px 10px;
+border-radius: 23px;
+text-align: center;
+margin-left: 20px;
+}
+.search2{
+padding: 8px 10px;
+border-radius: 23px;
+text-align: center;
+margin-left: 20px;
+}
+.search3{
+padding: 8px 10px;
+border-radius: 23px;
+text-align: center;
+margin-left: 20px;
+}
+
+.searchbtn{
+padding: 8px 35px;
+border-radius: 23px;
+margin-left: 180px;
+background-color:darkblue;
+border-color: 2px solid black;
+color: white;
+}
+.searchbtn:hover{
+background-color: rgb(43, 43, 184);
+cursor: pointer;
+transform: scale(1.1);
+}
+.search{
+background: rgba(0,0,0,0.5);
+padding: 15px 30px;
+border-radius: 40px;
+}
+.middle h3{
+color: black;
+font-size: 20;
+text-align: center;
+}

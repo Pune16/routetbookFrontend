@@ -1,0 +1,15 @@
+
+
+<div class="middle">
+    <h2>Discover intresting route around the world</h2>
+    <form #FormData="ngForm">
+        <div class="search">
+            <input type="text" placeholder="From Where" class="search1" [(ngModel)]="route.Source" required>
+            <input type="text" placeholder="Where" class="search2" [(ngModel)]="route.Destination" required>
+            <button type="button" class="searchbtn"  (click)="search()">Search</button>
+        </div>   
+    </form>
+    <h3>A single platform for exchanging routes-use and publish the best routes <br>around the world with many intresting places, 
+        photos, ratings and <br>reviews.
+    </h3>           
+</div>   

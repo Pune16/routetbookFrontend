@@ -1,0 +1,58 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../assets/images/image2.avif" height="100%" width="100%">
+        </div>
+        <div class="col-md-4 mt-3">
+           <h3 class="text-success text-center">Welcome RouteBook</h3>
+
+           <form class="mt-4 p-5" >
+            <h5 class="text-primary mb-3">Signup</h5>
+             <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="inputemail" placeholder="email" name="email"  > 
+                <label for="Email">Email</label>
+                
+             </div>
+          
+               
+
+               <div class="form-floating mb-3" >
+                  <input type="text" class="form-control" id="inputusername" placeholder="username" name="username" >
+                  <label for="username">UserName</label>
+                   </div>
+              
+                   <div class="form-floating mb-3">
+                 <input type="password" class="form-control" id="inputpassword" placeholder="password" name="password" >
+                <label for="password">Password</label>
+                
+             </div>
+           
+
+         
+              
+
+              <div class="form-floating mb-3" >
+                 <input type="number" class="form-control" id="inputcontact" placeholder="Contact" name="Contact" >
+                 <label for="contact">Contact</label>
+                  </div>
+
+     
+          
+
+
+
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-outline-success me-md-2" type="button" (click)= "signup()">Signup</button>
+            
+              </div>
+
+              <a routerLink="/" class="text-primary" style="text-decoration: none;">SignIn</a>
+           </form>
+        </div>
+
+        <div class="col-md-2">
+
+        </div>
+    </div>
+</div>
